@@ -27,7 +27,7 @@ public class Testbase {
 			System.out.println("********************************************");
 			System.out.println("Test Suite Start");
 			//report=new ExtentReports(System.getProperty("user.dir")+"/Reports/"+Utility.getCurrentDateTime()+".html");
-			report=new ExtentReports(System.getProperty("user.dir")+"/Reports/test"+".html");
+			report=new ExtentReports(System.getProperty("user.dir")+"/Reports/extent"+".html");
 	}
 	
 	@BeforeClass
