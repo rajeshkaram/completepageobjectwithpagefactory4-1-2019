@@ -26,7 +26,7 @@ public class Testbase {
 	{
 			System.out.println("********************************************");
 			System.out.println("Test Suite Start");
-			report=new ExtentReports(System.getProperty("user.dir")+"/Reports/test"+Utility.getCurrentDateTime()+".html");
+			report=new ExtentReports(System.getProperty("user.dir")+"/Reports/test/"+Utility.getCurrentDateTime()+".html");
 			
 	}
 	
