@@ -37,7 +37,7 @@ public class databasetesting {
   				while (rs.next()){
   			        		String productid = rs.getString(1);								        
   	                        String productname = rs.getString(2);	
-  	                         String productprice = rs.getString(3);
+  	                        String productprice = rs.getString(3);
   	                        System. out.println(productid+"     "+productname+"    "+productprice);		
   	                }	
   	  			 // closing DB Connection		

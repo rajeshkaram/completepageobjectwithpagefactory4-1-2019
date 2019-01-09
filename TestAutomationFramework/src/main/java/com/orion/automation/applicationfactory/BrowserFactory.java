@@ -11,8 +11,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import com.orion.automation.utility.Utility;
 import com.relevantcodes.extentreports.LogStatus;
 
 
@@ -67,6 +69,11 @@ static WebDriver driver;
 	public static void frame(String name) {
 		driver.switchTo().frame(name);
 		
+	}
+	
+	public static void mouseover(WebElement element) {
+		Actions actions=new Actions(driver);
+		actions.moveToElement(Utility.waitForWebElement(driver, element, 20)).build().perform();
 	}
 	
 	public static void setDateUsingJavaScriptInCalendar(WebDriver driver, String value, WebElement calLocator)

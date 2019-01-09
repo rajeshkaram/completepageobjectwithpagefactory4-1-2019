@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-
+import com.orion.automation.applicationfactory.BrowserFactory;
 import com.orion.automation.testbase.Testbase;
 import com.orion.automation.utility.Utility;
 import com.relevantcodes.extentreports.LogStatus;
@@ -49,7 +49,7 @@ public primusbankloginpage(WebDriver driver){
 	 
 	 Utility.waitForWebElement(driver, loginButton, 20).click();
 	 
-	 
+	
 	}
 	
 	
