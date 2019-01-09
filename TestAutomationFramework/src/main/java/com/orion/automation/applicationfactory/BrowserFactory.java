@@ -13,6 +13,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 
 
 public class BrowserFactory {
@@ -48,7 +50,9 @@ static WebDriver driver;
 		System.out.println("Test is getting executed by threads and threads id is "+Thread.currentThread().getId());
 		System.out.println("Application is loading and URL is "+appUrl);
 		driver.get(appUrl);
+		
 		driver.manage().window().maximize();
+		
 		System.out.println("Title is "+driver.getTitle());
 		
 		return driver;

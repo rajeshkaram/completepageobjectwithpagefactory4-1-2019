@@ -35,6 +35,7 @@ public class Testbase {
 	{
 	
 		driver=BrowserFactory.getBrowser(Dataproviderfactory.getconfig().getBrowser(),Dataproviderfactory.getconfig().getTestURL());
+		
 	}
 	
 	

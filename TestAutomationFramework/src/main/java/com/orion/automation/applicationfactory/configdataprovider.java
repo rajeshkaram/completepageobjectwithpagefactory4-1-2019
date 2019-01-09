@@ -34,6 +34,10 @@ public class configdataprovider {
 		return pro.getProperty("stagingurl");
 	}
 
+	
+		
+		
+	
 	public String getBrowser()
 	{
 		return pro.getProperty("browser");

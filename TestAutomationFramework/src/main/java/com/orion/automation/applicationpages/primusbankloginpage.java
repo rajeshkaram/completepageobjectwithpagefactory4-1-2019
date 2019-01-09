@@ -43,8 +43,13 @@ public primusbankloginpage(WebDriver driver){
 	{
 		
 	 Utility.waitForWebElement(driver, username, 20).sendKeys(userid);
+	 
+	
 	 Utility.waitForWebElement(driver, password, 20).sendKeys(passid);
+	 
 	 Utility.waitForWebElement(driver, loginButton, 20).click();
+	 
+	 
 	}
 	
 	

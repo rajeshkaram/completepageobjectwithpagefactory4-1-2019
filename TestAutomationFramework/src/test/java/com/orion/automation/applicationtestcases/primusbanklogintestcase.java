@@ -17,7 +17,6 @@ public class primusbanklogintestcase extends Testbase{
 		primusbankloginpage	 abc;
 		
 		
-		
 		 
 		 
 	      @Test(dataProvider ="getDataExcel")
