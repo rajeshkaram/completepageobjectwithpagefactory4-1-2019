@@ -20,20 +20,20 @@ public class databasetesting {
 		//	String password = "sql@123";				
 
 			//Query to Execute		
-			String query = "select *  from product;";	
+			String query = "select * from product";	
          
   	    //Load mysql jdbc driver		
     	    Class.forName("com.mysql.jdbc.Driver");			
     
     		//Create Connection to DB		
-     	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sys","root","sql@123");
+     	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sys?useSSL=false","root","sql@123");
    
    		//Create Statement Object		
  	   Statement stmt = con.createStatement();					
-
+                        
 			// Execute the SQL Query. Store results in ResultSet		
-  		ResultSet rs= stmt.executeQuery(query);							
-  	// While Loop to iterate through all data and print results		
+  		     ResultSet rs= stmt.executeQuery(query);		
+  	       // While Loop to iterate through all data and print results		
   				while (rs.next()){
   			        		String productid = rs.getString(1);								        
   	                        String productname = rs.getString(2);	

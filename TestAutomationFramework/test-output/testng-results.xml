@@ -2,55 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10013" started-at="2019-01-09T10:04:56Z" finished-at="2019-01-09T10:05:06Z">
+  <suite name="Default suite" duration-ms="422" started-at="2019-01-17T06:42:28Z" finished-at="2019-01-17T06:42:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10013" started-at="2019-01-09T10:04:56Z" finished-at="2019-01-09T10:05:06Z">
-      <class name="com.orion.automation.applicationtestcases.primusbanklogintestcase">
-        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034]" name="setupTestSuite" is-config="true" duration-ms="117" started-at="2019-01-09T10:04:56Z" finished-at="2019-01-09T10:04:56Z">
+    <test name="Default test" duration-ms="422" started-at="2019-01-17T06:42:28Z" finished-at="2019-01-17T06:42:29Z">
+      <class name="com.orion.automation.Database.Databasetest">
+        <test-method status="PASS" signature="selectDbdata()[pri:0, instance:com.orion.automation.Database.Databasetest@44c8afef]" name="selectDbdata" duration-ms="406" started-at="2019-01-17T06:42:28Z" finished-at="2019-01-17T06:42:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTestSuite -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034]" name="startTest" is-config="true" duration-ms="5951" started-at="2019-01-09T10:04:56Z" finished-at="2019-01-09T10:05:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034]" name="loginTest" duration-ms="2352" started-at="2019-01-09T10:05:02Z" data-provider="getDataExcel" finished-at="2019-01-09T10:05:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endLogger(org.testng.ITestResult)[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034]" name="endLogger" is-config="true" duration-ms="2" started-at="2019-01-09T10:05:04Z" finished-at="2019-01-09T10:05:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=primusbanklogintestcase.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endLogger -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034]" name="endTest" is-config="true" duration-ms="1284" started-at="2019-01-09T10:05:04Z" finished-at="2019-01-09T10:05:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="tearDownTestSuite()[pri:0, instance:com.orion.automation.applicationtestcases.primusbanklogintestcase@ed9d034]" name="tearDownTestSuite" is-config="true" duration-ms="235" started-at="2019-01-09T10:05:06Z" finished-at="2019-01-09T10:05:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestSuite -->
-      </class> <!-- com.orion.automation.applicationtestcases.primusbanklogintestcase -->
+        </test-method> <!-- selectDbdata -->
+      </class> <!-- com.orion.automation.Database.Databasetest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
