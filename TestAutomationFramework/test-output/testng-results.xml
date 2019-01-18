@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="422" started-at="2019-01-17T06:42:28Z" finished-at="2019-01-17T06:42:29Z">
+  <suite name="Default suite" duration-ms="38407" started-at="2019-01-18T09:56:42Z" finished-at="2019-01-18T09:57:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="422" started-at="2019-01-17T06:42:28Z" finished-at="2019-01-17T06:42:29Z">
-      <class name="com.orion.automation.Database.Databasetest">
-        <test-method status="PASS" signature="selectDbdata()[pri:0, instance:com.orion.automation.Database.Databasetest@44c8afef]" name="selectDbdata" duration-ms="406" started-at="2019-01-17T06:42:28Z" finished-at="2019-01-17T06:42:29Z">
+    <test name="Default test" duration-ms="38407" started-at="2019-01-18T09:56:42Z" finished-at="2019-01-18T09:57:21Z">
+      <class name="com.orion.automation.desktopapplications.desktop">
+        <test-method status="PASS" signature="calc(java.lang.String, java.lang.String)[pri:1, instance:com.orion.automation.desktopapplications.desktop@5ed828d]" name="calc" duration-ms="10765" started-at="2019-01-18T09:56:43Z" data-provider="getCRMTestData" finished-at="2019-01-18T09:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectDbdata -->
-      </class> <!-- com.orion.automation.Database.Databasetest -->
+        </test-method> <!-- calc -->
+        <test-method status="PASS" signature="calc(java.lang.String, java.lang.String)[pri:1, instance:com.orion.automation.desktopapplications.desktop@5ed828d]" name="calc" duration-ms="6821" started-at="2019-01-18T09:56:54Z" data-provider="getCRMTestData" finished-at="2019-01-18T09:57:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calc -->
+        <test-method status="PASS" signature="calc(java.lang.String, java.lang.String)[pri:1, instance:com.orion.automation.desktopapplications.desktop@5ed828d]" name="calc" duration-ms="6800" started-at="2019-01-18T09:57:00Z" data-provider="getCRMTestData" finished-at="2019-01-18T09:57:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calc -->
+        <test-method status="PASS" signature="calc(java.lang.String, java.lang.String)[pri:1, instance:com.orion.automation.desktopapplications.desktop@5ed828d]" name="calc" duration-ms="6811" started-at="2019-01-18T09:57:07Z" data-provider="getCRMTestData" finished-at="2019-01-18T09:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calc -->
+        <test-method status="PASS" signature="calc(java.lang.String, java.lang.String)[pri:1, instance:com.orion.automation.desktopapplications.desktop@5ed828d]" name="calc" duration-ms="6817" started-at="2019-01-18T09:57:14Z" data-provider="getCRMTestData" finished-at="2019-01-18T09:57:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calc -->
+      </class> <!-- com.orion.automation.desktopapplications.desktop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
