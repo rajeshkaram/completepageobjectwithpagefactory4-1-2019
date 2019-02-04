@@ -25,6 +25,7 @@ public class Databasetest {
 				public void joins() throws ClassNotFoundException, SQLException {
 					
 					String query="select e2.name,e2.salary from student1 e1,student1 e2 where e1.salary=e2.salary and e1.name='adams'";
+					String query1="select * from custo inner join ord on custo.customerid=ord.customerid";
 							Database database=new Database();
 							
 							ResultSet data=database.getData(query);
