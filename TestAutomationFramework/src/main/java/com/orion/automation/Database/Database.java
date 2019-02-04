@@ -51,6 +51,8 @@ public class Database {
 	     getStatement().executeUpdate(query);
 		
 	}
+	    
 }
+
 
 

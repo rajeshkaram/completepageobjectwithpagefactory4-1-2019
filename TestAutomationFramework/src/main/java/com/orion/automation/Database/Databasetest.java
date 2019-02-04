@@ -7,20 +7,33 @@ import org.testng.annotations.Test;
 
 public class Databasetest {
 
-	@Test
+	//@Test
 	public void selectDbdata() throws ClassNotFoundException, SQLException {
 		
-		String query="Select * from product order by productid asc";
+		String query="select * from student1";
 				Database database=new Database();
 				
 				ResultSet data=database.getData(query);
 				System.out.println(data);
 				while(data.next()) {
 					
-					System.out.println(data.getString(1)+" "+data.getString(2)+" "+data.getString(3));
+					System.out.println(data.getString(1)+" "+data.getString(2));
 				}
+	}
 		
-		
+				@Test
+				public void joins() throws ClassNotFoundException, SQLException {
+					
+					String query="select e2.name,e2.salary from student1 e1,student1 e2 where e1.salary=e2.salary and e1.name='adams'";
+							Database database=new Database();
+							
+							ResultSet data=database.getData(query);
+							System.out.println(data);
+							while(data.next()) {
+								
+								System.out.println(data.getString(1)+" "+data.getString(2));
+				
+							}
 	}
 	//@Test
 	public void insertDbdata() throws ClassNotFoundException, SQLException {
@@ -45,4 +58,6 @@ public class Databasetest {
 		   database.deleteData(query);
 				
 	}
+	
+	
 }
