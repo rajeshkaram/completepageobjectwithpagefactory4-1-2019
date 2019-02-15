@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Databasetest {
 
-	//@Test
+	@Test
 	public void selectDbdata() throws ClassNotFoundException, SQLException {
 		
 		String query="select * from student1";
@@ -21,7 +21,7 @@ public class Databasetest {
 				}
 	}
 		
-				@Test
+				//@Test
 				public void joins() throws ClassNotFoundException, SQLException {
 					
 					String query="select e2.name,e2.salary from student1 e1,student1 e2 where e1.salary=e2.salary and e1.name='adams'";

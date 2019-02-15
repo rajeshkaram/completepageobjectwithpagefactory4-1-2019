@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orion.automation.Database.Databasetest">
+      <class name="com.orion.automation.desktopapplications.desktop">
         <methods>
-          <include name="selectDbdata"/>
+          <include name="calc" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- com.orion.automation.Database.Databasetest -->
+      </class> <!-- com.orion.automation.desktopapplications.desktop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
